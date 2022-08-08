@@ -1,0 +1,123 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+.img-fluid{
+    max-width: 50% !important;
+    padding-top: 20px;
+}
+
+.container1{
+    width: 100%;
+    border-bottom: 0.3px solid #ababab;
+}
+span{
+    color: crimson  ;
+}
+.back{
+    max-width: 100%;
+    height: auto;
+}
+@media only screen and (max-width: 600px){
+    h1{
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    .par{
+        font-size: 12px;
+        width: 90%;
+        margin-top: 4px;
+    }
+    h2{
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+    hr{
+        margin-top: 0;
+    }
+}
+.heading{
+    background-image: url(../Project/4.jpg);
+    padding-top: 75px;
+    padding-bottom: 75px;
+    color: white;
+    margin-top: 0px;
+}
+.main{
+    width: 100%;
+    margin-top: 5px;
+}
+.btn-3 {
+    background: rgb(3, 112, 9);
+  background: linear-gradient(0deg, rgb(3, 112, 9) 0%, rgb(4, 158, 4) 100%);
+    width: 130px;
+    height: 40px;
+    line-height: 42px;
+    padding: 0;
+    border: none;
+    border-radius: 5px;
+    
+  }
+  .btn-3 span {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: white;
+  }
+  .btn-3:before,
+  .btn-3:after {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 0;
+     background: rgb(3, 112, 9);
+    transition: all 0.3s ease;
+  }
+  .btn-3:before {
+    height: 0%;
+    width: 2px;
+  }
+  .btn-3:after {
+    width: 0%;
+    height: 2px;
+  }
+  .btn-3:hover{
+     background: transparent;
+    box-shadow: none;
+  }
+  .btn-3:hover:before {
+    height: 100%;
+  }
+  .btn-3:hover:after {
+    width: 100%;
+  }
+  .btn-3 span:hover{
+     color: rgb(3, 112, 9);
+  }
+  .btn-3 span:before,
+  .btn-3 span:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+     background: rgb(3, 112, 9);
+    transition: all 0.3s ease;
+  }
+  .btn-3 span:before {
+    width: 2px;
+    height: 0%;
+  }
+  .btn-3 span:after {
+    width: 0%;
+    height: 2px;
+  }
+  .btn-3 span:hover:before {
+    height: 100%;
+  }
+  .btn-3 span:hover:after {
+    width: 100%;
+  }
+    
